@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV</title>
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="cv.css">
+
+    <!-- Favicons -->
+    <link rel="icon" type="image/x-icon" href="/assets/immagini/logo.png">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav>
+        <a href="/#contatti"><img id="logo" src="/assets\immagini\logo.png"></a>
+
+        <div class="flex-container">
+            <div class="button-container">
+                <button onclick="myFunction()" class="button">Menu</button>
+                <div id="myDropdown" class="dropdown-content">
+
+                    <a class="items" href="/#chi-sono">Chi Sono</a>
+                    <a class="items" href="/#skills">Competenze</a>
+                    <a class="items" href="/#progetti">Progetti</a>
+                    <a class="items" href="/#contatti">Contatti</a>
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!--CV-->
+    <section id="cv">
+        <img class="foto-cv" src="/assets/immagini/foto-cv.png">
+        <h1 class="name">Giordano Rimato</h1>
+
+        <ul class="info">
+            <li><em><b>Nazionalità:</b></em> Italiana</li>
+            <li><em><b>Città:</b></em> Roma</li>
+        </ul>
+
+        <h3>Esperienze lavorative</h3>
+        <ul class="work">
+            <li>Addetto al reparato produzione e confezionamento</li>
+            <li>Operatore di sala</li>
+            <li>Banchista</li>
+            <li>Cameriere</li>
+        </ul>
+
+        <h3>Formazione</h3>
+        <ul class="education">
+            <li>Master in Front End Development</li>
+            <li>Master di Alta Preparazione Professionale in International Food & Beverages Management </li>
+            <li>Diploma Alberghiero</li>
+        </ul>
+
+        <h3>Competenze linguistiche</h3>
+        <ul class="languages">
+            <li>Italiano</li>
+            <li>Inglese</li>
+            <li>Spagnolo</li>
+        </ul>
+
+        <h3>Competenze digitali</h3>
+        <ul class="digital-skills">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>TypeScript</li>
+            <li>Git</li>
+            <li>Bootstrap</li>
+            <li>Angular 15+</li>
+            <li>Visual Studio Code</li>
+        </ul>
+
+        <h3>Patente</h3>
+        <ul class="driver">
+            <li>B</li>
+        </ul>
+
+        <h3>Competenze organizzative</h3>
+        <ul class="organizational-skills">
+            <li>Ottime competenze nel lavorare in un team</li>
+            <li>Gestione dello stress</li>
+            <li>Focalizzazione sull'obiettivo</li>
+        </ul>
+
+        <h2>Per conoscermi meglio <a href="/#contatti">contattami</a></h2>
+    </section>
+
+    <!--Socials-->
+    <div class="socials">
+
+        <!--instagram-->
+        <a href="https://www.instagram.com/giordanorimato/" target="_blank">
+            <img src="/assets/icone/icons8-instagram.png" alt="Instagram" loading="lazy" class="socicon">
+        </a>
+
+        <!--Github-->
+        <a href="https://github.com/Gio1804" target="_blank">
+            <img src="/assets/icone/github.png" alt="Github" loading="lazy" class="socicon">
+        </a>
+
+        <!--Gitlab-->
+        <a href="https://gitlab.com/Giordano.R" target="_blank">
+            <img src="/assets/icone/icons8-gitlab-48.png" alt="Gitlab" loading="lazy" class="socicon">
+        </a>
+
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p class="copy">&copy; Copyright 2023
+            <a href="/#contatti"> Giordano Rimato</a>
+        </p>
+    </footer>
+
+    <i class="arrow-up" id="scroll-up"><img src="/assets/icone/arrow-up.png" class="arrow" alt="torna su">
+    </i>
+
+    <!--EmailJs-->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+
+
+    <script src="/assets/js/app.js"></script>
+</body>
+
+</html>
