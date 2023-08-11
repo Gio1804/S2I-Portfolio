@@ -1,23 +1,18 @@
 html {
     scroll-behavior: smooth;
 }
-
 * {
     font-family: 'calibri';
 }
-
 body {
     background-color: white;
     height: 100%;
     margin: 0;
-
 }
-
 section {
     position: static;
     margin: 0px 81.6667px;
 }
-
 /* Navbar */
 nav {
     display: flex;
@@ -32,15 +27,12 @@ nav {
     width: 99%;
     z-index: 1;
 }
-
 .flex-container {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     height: 20px;
-
 }
-
 .button {
     display: flex;
     justify-content: center;
@@ -53,57 +45,43 @@ nav {
     border: none;
     cursor: pointer;
 }
-
 .button-container {
     position: relative;
     display: inline-block;
-
 }
-
 .button-container:hover {
     cursor: pointer;
     opacity: 0.8;
 }
-
 .button-container:active {
     opacity: 0.6;
 }
-
 .items {
     color: #014421;
     font-weight: 600;
 }
-
 .dropdown-content {
     display: none;
     position: absolute;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
 }
-
 /* Links dentro dropdown */
 .dropdown-content a {
-
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
-
 .items::after {
     opacity: 0.6;
 }
-
 .show {
     display: block;
 }
-
 #logo {
     height: 50px;
     margin-left: 17px;
 }
-
-
-
 /*  About me */
 .foto-home {
     margin-top: 150px;
@@ -113,14 +91,11 @@ nav {
     border-radius: 100% 0% 100% 0% / 70% 50% 50% 30%;
     height: 350px;
     margin-left: 60px;
-
 }
-
 .about-container {
     display: flex;
     height: 80%;
 }
-
 .bio {
     padding: 15px;
     margin-top: 20%;
@@ -130,13 +105,11 @@ nav {
     border-radius: 10px;
     box-shadow: rgb(139, 142, 175) 0px 2px 15px 2px;
 }
-
 .about-card {
     text-align: justify;
     padding: 10px;
     margin: 3px;
 }
-
 .about {
     margin-top: 0;
     padding: 0;
@@ -145,54 +118,43 @@ nav {
     font-size: 30px;
     font-weight: 700;
 }
-
 .text {
     line-height: 1.3;
     word-spacing: 1.5px;
     font-family: 'calibri';
-
 }
-
 .cv :hover {
     color: #014421;
 }
-
 .cv :active {
     color: rgb(0, 0, 0);
     opacity: 0.5;
-
 }
-
 /* Skills */
-
 h1 {
     font-family: 'calibri';
     font-size: 40px;
     margin-top: 15%;
-
 }
-
+a {
+    cursor: pointer;
+}
 .skills {
     max-width: 68.75rem;
     margin: auto;
     text-align: center;
     margin-top: 48px;
 }
-
 .skill-header {
     margin-bottom: 16px;
 }
-
 .skills-wrapper img {
     padding: 0;
 }
-
-
 .icon {
     width: 11.875rem;
     height: 11.25rem;
 }
-
 .icon-card {
     background: rgb(255, 255, 255) none repeat scroll 0% 0% / auto padding-box border-box;
     background-color: rgb(255, 255, 255);
@@ -204,24 +166,20 @@ h1 {
     padding: 20px;
     margin: 10px;
 }
-
 /* Progetti */
 #progetti {
     margin: 0;
     margin-top: '0'
 }
-
 .progetti {
     background-color: rgba(211, 211, 211, 0.105);
     padding: 32px 0;
     margin-top: 2rem;
 }
-
 .progetti-foto {
     width: 45%;
     height: 30%;
 }
-
 .progetti-container {
     display: flex;
     align-items: center;
@@ -229,18 +187,14 @@ h1 {
     text-align: center;
     padding: 16px;
 }
-
 .titoli-progetti {
-
     text-align: center;
     margin-bottom: 1rem;
     margin-top: 2rem;
 }
-
 .progetti-container p {
     padding: 0.4rem;
 }
-
 .card {
     width: 350px;
     background-color: #fff;
@@ -249,14 +203,11 @@ h1 {
     padding: 20px;
     margin: 10px;
 }
-
 /* Contatti */
-
 h1 {
     margin-top: 3rem;
     text-align: center;
 }
-
 input[type=text],
 [type=email],
 select,
@@ -272,7 +223,6 @@ textarea {
     border: 2px outset rgb(1, 50, 12);
     font-size: 15px;
 }
-
 .form-container {
     height: 85%;
     display: flex;
@@ -281,21 +231,16 @@ textarea {
     max-width: 620px;
     padding: 15px;
     box-shadow: rgb(139, 142, 175) 0px 3px 10px 0px;
-
 }
-
 .contact-form {
     font-size: 16px;
     font-weight: 700;
     text-align: left;
     list-style: none;
-
 }
-
 ::placeholder {
     font-size: 15px;
 }
-
 input[type=submit] {
     width: 100%;
     padding: 10px;
@@ -308,17 +253,15 @@ input[type=submit] {
     font-size: 20px;
     font-weight: 700;
 }
-
 input[type=submit]:hover {
     background-color: rgba(1, 50, 12, 0.7);
     border: 2px solid;
     cursor: pointer;
 }
-
 input[type=submit]:active {
     opacity: 0.8;
 }
-
+/*Socials*/
 .socials {
     display: flex;
     flex-direction: column;
@@ -326,13 +269,63 @@ input[type=submit]:active {
     right: 1%;
     bottom: 50%;
 }
-
 .socicon {
     width: 32px;
     height: 32px;
     border-radius: 25px;
 }
-
+/*Cv*/
+#cv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 7rem;
+}
+.foto-cv {
+    margin-bottom: 2rem;
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+.name {
+    color: #014421;
+    font-size: 40px;
+    font-weight: 800;
+}
+h2 {
+    font-weight: 800;
+    font-size: 35px;
+}
+h3 {
+    color: #014421;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+}
+ul>li {
+    font-size: 18px;
+}
+.info {
+    margin-right: 120px;
+}
+.work {
+    margin-left: 100px;
+}
+.education {
+    margin-left: 380px;
+}
+.languages {
+    margin-right: 200px;
+}
+.digital-skills {
+    margin-right: 130px;
+}
+.driver {
+    margin-right: 254px;
+}
+.organizational-skills {
+    margin-left: 50px;
+}
 /* Footer */
 footer {
     background-color: rgba(211, 211, 211, 0.105);
@@ -341,95 +334,76 @@ footer {
     margin: 0 0 0;
     font-size: 16px;
 }
-
 .arrow-up {
     position: fixed;
     right: 0.5%;
     bottom: 0;
     cursor: pointer;
 }
-
 .arrow {
     width: 48px;
     height: 48px;
 }
-
 /* Mobile */
 @media only screen and (max-width: 767px) {
     section {
         margin: 0;
     }
-
     h1 {
         font-size: 30px;
     }
-
     /*Nav*/
     nav {
         margin: 0;
     }
-
     .button-container {
         padding-top: 12px;
         padding-right: 5px;
     }
-
     .dropdown-content {
         background-color: white;
         opacity: 1;
     }
-
     /*about me*/
     #chi-sono {
         margin: 0;
         text-align: center;
     }
-
     .about-container {
         display: inline-block;
     }
-
     .foto-home {
         margin: 0;
         margin-top: 90px;
     }
-
     .about {
         font-size: 1.875rem;
     }
-
     .bio {
         margin: 0;
         margin-top: 3.438rem;
         width: 20.5rem;
     }
-
     .text {
         font-size: 1.1rem;
     }
-
     .items {
         font-size: 20px;
     }
-
     /*Competenze*/
     .icon {
         width: 6rem;
         height: 6rem;
     }
-
     /*Progetti*/
     .progetti {
         background-color: rgba(211, 211, 211, 0.105);
         padding: 20px;
-
     }
-
     .progetti-foto {
         width: 50%;
         height: auto;
     }
-
     .progetti-container {
         display: block;
         align-items: flex-start;
@@ -437,18 +411,15 @@ footer {
         padding: 0;
         margin-left: 40px;
     }
-
     .titoli-progetti {
         text-align: center;
         margin-bottom: 30px;
         margin-left: 0px;
     }
-
     .progetti-container p {
         padding: 0;
         font-size: 20px;
     }
-
     .card {
         width: 80%;
         background-color: #fff;
@@ -458,11 +429,9 @@ footer {
         margin: 0;
         margin-bottom: 50px;
     }
-
     .link {
         font-size: 18px;
     }
-
     /*Contatti*/
     .form-container {
         margin: 0;
@@ -471,14 +440,12 @@ footer {
         margin-left: 3%;
         width: 85%;
     }
-
     .contact {
         margin: 0;
         margin-top: 20px;
         margin-bottom: 30px;
         font-size: 30px;
     }
-
     input[type=text],
     [type=email],
     select,
@@ -492,7 +459,6 @@ footer {
         resize: vertical;
         font-size: 20px;
     }
-
     .contact-form {
         font-size: 20px;
     }
@@ -500,7 +466,6 @@ footer {
     ::placeholder {
         font-size: 17px;
     }
-
     input[type=submit] {
         width: 100%;
         padding: 10px;
@@ -512,126 +477,142 @@ footer {
         font-size: 20px;
         font-weight: 700;
     }
-
     input[type=submit]:hover {
         background-color: rgba(1, 50, 12, 0.7);
         border: 2px solid;
         cursor: pointer;
     }
-
     input[type=submit]:active {
         opacity: 0.8;
     }
-
     .socials {
         margin: 0;
+    }     
+    /*Cv*/  
+    h2{        
+        font-size: 25px;
     }
+    h3{
+        font-size: 25px;
+    }
+    ul>li {        
+        font-size: 20px;
+    }   
+    .info{
+        margin: 0;
+        margin-right: 50px;        
+    }
+    .work{
+        margin: 0;
+        margin-left: 70px;
+    }
+    .education{
+        margin: 0;
+        margin-left: 70px;
+    }
+    .languages{
+        margin: 0;
+        margin-right: 30px;
+    }
+    .digital-skills{
+        margin: 0;
+        margin-left: 50px;
+    }
+    .driver{
+        margin: 0;
+        margin-right: 90px;
+    }
+    .organizational-skills{
+        margin: 0;
+        margin-left: 70px;
+    }  
 }
-
-
 /* Tablet */
 @media only screen and (min-width: 768px) and (max-width: 1023px) {
     #chi-sono {
         margin: 0;
     }
-
     h1 {
         font-size: 45px
     }
-
     p {
         text-align: center;
         font-size: 25px;
     }
-
     /*About-me*/
     .about-container {
         margin-bottom: 650px;
         padding: 0;
     }
-
     .dropdown-content {
         background-color: white;
         opacity: 1;
     }
-
     .foto-home {
         margin-top: 450px;
         height: 490px;
     }
-
     .bio {
         margin-left: 50px;
         margin-top: 450px;
         height: 650px;
     }
-
     .about {
         text-align: center;
         font-size: 35px;
     }
-
-
     /*Competenze*/
     .skill-header {
         margin-bottom: 50px;
         font-size: 45px;
     }
-
-
     .icon {
         width: 250px;
     }
-
     /*Progetti*/
     .progetti {
         margin: 0;
-
     }
-
     .progetti-titolo {
         font-size: 30px;
     }
-
-
     .link {
         font-size: 20px;
     }
-
     /*Contatti*/
     .form-container {
         margin-left: 100px;
-        height: 500px;
-        /*550*/
+        height: 500px;        
         width: 500px;
     }
-
     .contact-form {
         font-size: 25px;
     }
-
     ::placeholder {
         font-size: 20px;
     }
-
     .socicon {
         height: 30px;
         padding: 8%;
     }
-
+    /*Cv*/
+    h3{
+        font-size: 35px;
+    }
+    .education{
+        margin:0;
+        margin-left: 170px;
+    }
     /*Footer*/
     footer {
         margin-bottom: 12rem;
     }
-
     .copy {
         font-size: 25px;
     }
-
     .arrow-up {
         margin-bottom: 13rem;
     }
-
     .arrow {
         height: 50px;
         width: 50px;

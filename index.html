@@ -5,13 +5,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!--Open Graph-->
+    <meta property="og:type" content="website">
+    <meta property='og:url' content='https://idyllic-toffee-737111.netlify.app'>
+    <meta property="og:title" content="Portfolio di Giordano Rimato">
+    <meta property="og:image" content="https://idyllic-toffee-737111.netlify.app/assets/immagini/logo.png">
+    <meta property="og:description" content="Portfolio front-end developer e sito personale di Giordano Rimato">
+    <meta property="og:locale" content="it_IT">
+    <!--Meta description-->
+    <meta name="description" content="Scopri le mie capacità attraverso il mio portfolio.Suddiviso in bio, skills, progetti, cv ed in fine un form per cotattarmi. Ti aspetto! ">
+
     <title>Portfolio Giordano Rimato</title>
-
     <!--CSS Styles -->
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="stylesheet" href="/css/style.css">
     <!-- Favicons -->
-    <link rel="icon" type="image/x-icon" href="assets/immagini/logo.png">
+    <link rel="icon" type="image/x-icon" href="/icone/logo.ico">
 
 </head>
 
@@ -19,7 +27,7 @@
 
     <!-- Navbar -->
     <nav>
-        <a href="#contatti"><img id="logo" src="assets\immagini\logo.png"></a>
+        <a href="#contatti"><img id="logo" src="\immagini\logo.png"></a>
 
         <div class="flex-container">
             <div class="button-container">
@@ -30,7 +38,7 @@
                     <a class="items" href="#skills">Competenze</a>
                     <a class="items" href="#progetti">Progetti</a>
                     <a class="items" href="#contatti">Contatti</a>
-                    <a class="items" href="cv/cv.html" target="_blank">CV</a>
+                    <a class="items" href="cv/cv.html">CV</a>
 
                 </div>
             </div>
@@ -41,20 +49,20 @@
     <section id="chi-sono">
 
         <div class="about-container">
-            <a href="https://www.instagram.com/giordanorimato/" target="_blank"><img class="foto-home"
-                    src="assets\immagini\imm. home.jpg" alt="una mia foto"></a>
+           <img class="foto-home" src="\immagini\imm-home.jpg" alt="Giordano Rimato foto profilo">
 
             <div class="bio">
                 <div class="about-card">
                     <h2 class="about">Su di me</h2>
-                    <p class="text">Ciao, mi presento, mi chiamo <a class="cv" href="cv/cv.html"
-                            target="_blank"><strong>Giordano Rimato</strong></a>,
-                        vengo da Roma ed ho 29 anni.<br>
-                        Mi sono diplomato presso l'istituto alberghiero, ma la mia passione è la tecnologia e
-                        così ho intrapreso questo percorso con l'obiettivo di diventare <em>Front-End
-                            Developer</em>.<br>
-                        I miei hobby sono: lo sport, le attività all'aperto, il calcio e lo stare in compagnia.
-                        Il mio desidero è specializzarmi in questo settore.</p>
+                    <p class="text">
+
+                        Ciao, mi presento, mi chiamo <a class="cv" href="cv/cv.html"><strong>Giordano Rimato</strong></a>,
+                        vengo da Roma ed ho 29 anni.<br> Mi sono diplomato presso l'istituto alberghiero, ma la mia passione 
+                        è la tecnologia e così ho intrapreso questo percorso con l'obiettivo di diventare <em>Front-End Developer</em>.<br>
+                        I miei hobby sono: lo sport, le attività all'aperto, il calcio e lo stare in compagnia. 
+                        Il mio desidero è specializzarmi in questo settore.
+
+                    </p>
                 </div>
             </div>
         </div>
@@ -68,30 +76,36 @@
         <div class="skills-wrapper">
             <div class="first-set animate">
 
-                <a href="https://www.w3schools.com/html/" target="_blank" style="cursor: pointer;"><img
-                        src="assets\icone\html-5.svg" alt="html-5" loading="lazy" class="icon icon-card"></a>
+                <a href="https://www.w3schools.com/html/" target="_blank"> 
+                    <img src="\icone\html-5.svg" alt="html-5" loading="lazy" class="icon icon-card">
+                </a>
 
-                <a href="https://www.w3schools.com/css/" target="_blank" style="cursor: pointer;"><img
-                        src="assets\icone\css3.svg" alt="css-3" loading="lazy" class="icon icon-card"></a>
+                <a href="https://www.w3schools.com/css/" target="_blank"> 
+                    <img src="\icone\css3.svg" alt="css-3" loading="lazy" class="icon icon-card">
+                </a>
 
-                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
-                    style="cursor: pointer;" alt="JavaScript"> <img src="assets\icone\javascript.svg" alt="js"
-                        loading="lazy" class="icon icon-card"> </a>
+                <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" alt="JavaScript"> 
+                    <img src="\icone\javascript.svg" alt="js" loading="lazy" class="icon icon-card"> 
+                </a>
             </div>
 
             <div class="second-set animate">
 
-                <a href="https://getbootstrap.com/" target="_blank" style="cursor: pointer;" alt="bootstrap"> <img
-                        src="assets\icone\bootstrap.svg" alt="bootstrap" loading="lazy" class="icon icon-card"> </a>
+                <a href="https://getbootstrap.com/" target="_blank" alt="bootstrap"> 
+                    <img src="\icone\bootstrap.svg" alt="bootstrap" loading="lazy" class="icon icon-card"> 
+                </a>
 
-                <a href="https://angular.io/" target="_blank" style="cursor: pointer;" alt="angular"> <img
-                        src="assets\icone\angular.svg" alt="angular" loading="lazy" class="icon icon-card"> </a>
+                <a href="https://angular.io/" target="_blank"alt="angular"> 
+                    <img src="\icone\angular.svg" alt="angular" loading="lazy" class="icon icon-card"> 
+                </a>
 
-                <a href="https://git-scm.com/" target="_blank" style="cursor: pointer;" alt="git"> <img
-                        src="assets\icone\git.svg" alt="git" loading="lazy" class="icon icon-card"> </a>
+                <a href="https://git-scm.com/" target="_blank" alt="git"> 
+                    <img src="\icone\git.svg" alt="git" loading="lazy" class="icon icon-card"> 
+                </a>
 
-                <a href="https://www.typescriptlang.org/" target="_blank" style="cursor: pointer;" alt="typescript"><img
-                        src="assets\icone\typescript.svg" alt="typescript" loading="lazy" class="icon icon-card"></a>
+                <a href="https://www.typescriptlang.org/" target="_blank"alt="typescript"> 
+                    <img src="\icone\typescript.svg" alt="typescript" loading="lazy" class="icon icon-card">
+                </a>
             </div>
         </div>
     </section>
@@ -103,25 +117,25 @@
         <div class="progetti-container">
             <div class="progetti-container card">
                 <div>
-                    <img src="assets/immagini/weather-app.png" alt="weather-app" loading="lazy" class="progetti-foto">
+                    <img src="/immagini/weather-app.png" alt="weather-app" loading="lazy" class="progetti-foto">
                     <h3 class="progetti-titolo">Weather App</h3>
-                    <p>App sviluppata con Angular 15, ho sviluppato le API calls su OpenWeathermap.org. <br> I dati
-                        cambiano in base alla
-                        risposta metereologica che riceve. </p>
-                    <a href="https://gio1804.github.io/Weather-app.github.io/" target="_blank" class="link">Dai
-                        un'occhiata</a>
+                    <p>   
+                            App sviluppata con Angular 15, ho sviluppato le API calls su OpenWeathermap.org.<br> 
+                            I dati cambiano in base alla risposta metereologica che riceve. 
+                    </p>
+                    <a href="https://gio1804.github.io/Weather-app.github.io/" target="_blank" class="link">Dai un'occhiata</a>
                 </div>
             </div>
 
             <div class="progetti-container card">
                 <div>
-                    <img src="assets/immagini/example-Login-Logout-Signup.png" alt="example-Login-Logout-Signup"
-                        loading="lazy" class="progetti-foto">
+                    <img src="/immagini/example-Login-Logout-Signup.png" alt="example-Login-Logout-Signup" loading="lazy" class="progetti-foto">
                     <h3 class="progetti-titolo">Example-Login-Logout-Signup</h3>
-                    <p>Sviluppata con Angular 15, consente di eseguire login, logout e registrazione.<br>
-                        Ho collegato l'app su Firebase ed ho usato Realtime Database e Authentication. </p>
-                    <a href=" https://gio184.github.io/" target="_blank" class="link">Dai
-                        un'occhiata</a>
+                    <p>
+                        Sviluppata con Angular 15, consente di eseguire login, logout e registrazione.<br>
+                        Ho collegato l'app su Firebase ed ho usato Realtime Database e Authentication. 
+                    </p>
+                    <a href=" https://gio184.github.io/" target="_blank" class="link">Dai un'occhiata</a>
                 </div>
             </div>
         </div>
@@ -157,17 +171,17 @@
 
             <!--instagram-->
             <a href="https://www.instagram.com/giordanorimato/" target="_blank">
-                <img src="assets/icone/icons8-instagram.png" alt="Instagram" loading="lazy" class="socicon">
+                <img src="/icone/icons8-instagram.png" alt="Instagram" loading="lazy" class="socicon">
             </a>
 
             <!--Github-->
             <a href="https://github.com/Gio1804" target="_blank">
-                <img src="assets/icone/github.png" alt="Github" loading="lazy" class="socicon">
+                <img src="/icone/github.png" alt="Github" loading="lazy" class="socicon">
             </a>
 
             <!--Gitlab-->
             <a href="https://gitlab.com/Giordano.R" target="_blank">
-                <img src="assets/icone/icons8-gitlab-48.png" alt="Gitlab" loading="lazy" class="socicon">
+                <img src="/icone/icons8-gitlab-48.png" alt="Gitlab" loading="lazy" class="socicon">
             </a>
 
         </div>
@@ -177,19 +191,18 @@
 
     <footer>
         <p class="copy">&copy; Copyright 2023
-            <a href="#contatti"> Giordano Rimato</a>
+            <a href="#contatti">Giordano Rimato</a>
         </p>
     </footer>
 
-    <i class="arrow-up" id="scroll-up"><img src="assets/icone/arrow-up.png" class="arrow" alt="torna su">
-    </i>
+    <i class="arrow-up" id="scroll-up"><img src="/icone/arrow-up.png" class="arrow" alt="torna su"></i>
 
 
     <!--EmailJs-->
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 
 
-    <script src="assets/js/app.js"></script>
+    <script src="js/app.js"></script>
 
 </body>
 
